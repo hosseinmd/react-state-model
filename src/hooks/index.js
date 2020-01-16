@@ -34,14 +34,8 @@ export function useLocalModel(
   listener,
 ) {
   const useStore = useState(() => {
-<<<<<<< HEAD
-    const localStore = createStore(initialState, actions);
-    return createHooks(localStore);
-  }, [])[0];
-=======
     const localStore = model.create(initialState);
     return createHooks(localStore);
   })[0];
->>>>>>> model
   return useStore(sensitiveStateKeys, listener);
 }
