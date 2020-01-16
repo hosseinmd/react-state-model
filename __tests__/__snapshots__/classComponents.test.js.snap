@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TestComponent changes the count when hovered 1`] = `
+<p
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  0
+</p>
+`;
+
+exports[`TestComponent changes the count when hovered 2`] = `
+<p
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  1
+</p>
+`;
+
+exports[`TestComponent changes the count when hovered 3`] = `
+<p
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  0
+</p>
+`;

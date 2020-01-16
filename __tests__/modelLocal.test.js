@@ -1,7 +1,7 @@
 import { renderHook, act } from "@testing-library/react-hooks";
 import { useCallback } from "react";
-import { model } from "../src/model";
-import { useLocalModel } from "../src/model";
+import { model } from "../src";
+import { useLocalModel } from "../src";
 
 const Store = model(
   {
