@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`store  1`] = `
+Object {
+  "todos": Array [
+    Object {
+      "assignee": "",
+      "done": false,
+      "title": "Get coffee",
+    },
+  ],
+}
+`;
+
+exports[`store  2`] = `
+Object {
+  "todos": Array [
+    Object {
+      "assignee": "",
+      "done": false,
+      "title": "Get coffee",
+    },
+    Object {
+      "assignee": "hossein",
+      "done": false,
+      "title": "todo 1",
+    },
+    Object {
+      "assignee": "ali",
+      "done": false,
+      "title": "todo 2",
+    },
+  ],
+}
+`;
+
+exports[`store  3`] = `
+Object {
+  "todos": Array [
+    Object {
+      "assignee": "",
+      "done": true,
+      "title": "Get coffee",
+    },
+    Object {
+      "assignee": "hossein",
+      "done": false,
+      "title": "todo 1",
+    },
+    Object {
+      "assignee": "ali",
+      "done": false,
+      "title": "todo 2",
+    },
+  ],
+}
+`;

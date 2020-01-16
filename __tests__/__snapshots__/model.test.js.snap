@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`store  1`] = `
+Object {
+  "todos": Array [
+    Object {
+      "done": false,
+      "title": "Get coffee",
+    },
+  ],
+}
+`;
+
+exports[`store  2`] = `
+Object {
+  "todos": Array [
+    Object {
+      "done": true,
+      "title": "Get coffee",
+    },
+  ],
+}
+`;
